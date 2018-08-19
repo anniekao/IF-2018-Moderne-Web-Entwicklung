@@ -6,3 +6,20 @@ body {
 .header {
   padding-bottom: 50px;
 }
+
+.jumbotron {
+  text-align: center;
+  border-bottom: 2px solid grey;
+  background-image: url("clouds.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.8;
+}
+
+.footer {
+  padding-top: 20px;
+}
+
+.col {
+  border-bottom-color: 2px solid grey;
+}
