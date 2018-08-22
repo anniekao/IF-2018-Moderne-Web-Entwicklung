@@ -6,3 +6,8 @@ body {
 .header {
   padding-bottom: 50px;
 }
+
+#myCarousel img {
+  width:1200px;
+  height:450px;
+}
