@@ -1,6 +1,7 @@
-$(document).ready(function(){
-    $('.to-top').click(function(){
-      $('html, body').animate(
-      {scrollTop: 0}, 1000);
-      });
+$('.mySlider').slick({
+  dots:true,
+  infinite: true,
+  speed: 500,
+  fade: true,
+  cssEase: 'linear'  
 });
