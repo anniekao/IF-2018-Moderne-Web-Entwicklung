@@ -7,7 +7,21 @@ body {
   padding-bottom: 50px;
 }
 
-#myCarousel img {
+.mySlider img {
   width:1200px;
-  height:450px;
+  height:375px;
+}
+
+.carousel-container {
+  margin: 0 auto;
+  padding: 30px;
+  width: 100%;
+  color: #333;
+  background: #419be0;
+}
+
+.slick-slide {
+  text-align: center;
+  color: #419be0;
+  background: white;
 }
