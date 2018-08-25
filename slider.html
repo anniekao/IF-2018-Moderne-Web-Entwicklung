@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+  <head>
+    <meta charset="utf-8">
+    <title>IF 2018 - mod. Web-Entwicklung</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.css">
+
+    <!--slick carousel css -->
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.9/slick-theme.min.css"/>
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.9/slick.min.css"/>
+
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="header">
+        <nav class="nav navbar-static-top">
+          <ul class="nav nav-pills">
+            <li class="nav-items">
+              <a href = "/" class="nav-link">Home</a>
+            </li>
+            <li class="nav-items">
+              <a href="/table" class="nav-link">Table of Data</a>
+            </li>
+            <li class="nav-items">
+              <a href="/slider" class="nav-link active">Image Slider</a>
+            </li>
+            <li class="nav-items">
+              <a href="/about" class="nav-link">About</a>
+            </li>
+            <li class="nav-items">
+              <a href="mailto:anniekao@xyz.de" class="nav-link">Contact</a>
+            </li>
+          </ul>
+        </nav>
+    </div>
+
+    <div class="jumbotron bg-warning">
+      <h1>Credit point assignment #2: jQuery Image Slider</h1>
+      <p>
+        This image slider uses <a href="https://kenwheeler.github.io/slick/">
+        Slick</a>
+      </p>
+    </div>
+
+      <!--credit point assignment #2: integrate a slider gallery with JS/jQuery -->
+      <!--slick carousel begins -->
+
+      <div class='carousel-container'>
+        <div class='mySlider'>
+          <div><img src="HH.jpg"></div>
+          <div><img src="HH2.jpg"></div>
+          <div><img src="HH3.jpg"></div>
+          <div><img src="MN.jpg"></div>
+          <div><img src="BN.jpg"></div>
+          <div><img src="TO.jpg"></div>
+        </div>
+      </div>
+
+      <!--slick carousel ends -->
+
+      <div class="col bg-success rounded mt-4 p-5">
+        <h2> Documentation </h2>
+      </div>
+
+
+      <footer class="footer border-top">
+        <p>&copy; Informatica Feminale 2018
+      </footer>
+    </div>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.1/jquery.min.js"></script>
+    <!--slick carousel javascript-->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.9/slick.min.js"></script>
+
+    <!--my-javascript.js with jquery is loaded after slick javascript -->
+    <script src="my-javascript.js"></script>
+
+  </body>
+
+</html>
