@@ -53,37 +53,37 @@
         </thead>
         <tbody>
           <tr>
-            <th scope="col">Jan</th>
+            <th scope="row">Jan</th>
             <td>12</td>
             <td>17</td>
             <td>10</td>
           </tr>
           <tr>
-            <th scope="col">Feb</th>
+            <th scope="row">Feb</th>
             <td>17</td>
             <td>11</td>
             <td>21</td>
           </tr>
           <tr>
-            <th scope="col">Mar</th>
+            <th scope="row">Mar</th>
             <td>22</td>
             <td>29</td>
             <td>14</td>
           </tr>
           <tr>
-            <th scope="col">Apr</th>
+            <th scope="row">Apr</th>
             <td>14</td>
             <td>10</td>
             <td>17</td>
           </tr>
           <tr>
-            <th scope="col">May</th>
+            <th scope="row">May</th>
             <td>12</td>
             <td>17</td>
             <td>10</td>
           </tr>
           <tr>
-            <th scope="col">Jun</th>
+            <th scope="row">Jun</th>
             <td>19</td>
             <td>15</td>
             <td>20</td>
@@ -91,8 +91,37 @@
         </tbody>
       </table>
 
-      <div class="col bg-success rounded mt-4 mb-4 p-5">
+      <div class="col bg-primary rounded mt-4 mb-4 p-5">
         <h2>Documentation</h2>
+        <p>How this table was created with HTML will be explained in detail.</p>
+        <p>
+          The above table consists of...
+          <ol>
+            <li><code>&lt;table&gt;</code> element with the following Bootstrap classes: </li>
+            <ul>
+              <li><code>.table-sm</code>: makes the table more compact by cutting the padding in half.</li>
+              <li><code>.table-hover</code>: the column that the cursor is hovering over is given a grey-highlighted effect.
+              <li><code>.table-bordered</code>: all sides of the table and cells are given a border.
+            </ul>
+            <li><code>&lt;thead&gt;</code> defines the headings of the top row. It has been given the class <code>.thead-dark</code>
+              so that the cell backgrounds are black.
+            </li>
+            <li>
+              <code>&lt;tbody&gt;</code> contains the main content of the table.
+            </li>
+            <li>
+              Each table row is defined by a <code>&lt;tr&gt;</code> element that is then followed by:
+              <ul>
+                <li><code>&lt;th&gt;</code> element that defines the header of each row. It is given a scope of <code>col</code> to indicate
+                that it is the header for the row</li>
+                <li><code>&lt;td&gt;</code> elements that contain the data/content of each cell in the row.</li>
+              </ul>
+            </li>
+            <li>
+              Closing tags are required for all elements since none are empty.
+            </li>
+          </ol>
+        </p>
       </div>
 
       <footer class="footer border-top">
