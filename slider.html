@@ -38,8 +38,7 @@
     <div class="jumbotron bg-warning">
       <h1>Credit point assignment #2: jQuery Image Slider</h1>
       <p>
-        This image slider uses <a href="https://kenwheeler.github.io/slick/">
-        Slick</a>
+        Create a image slider using either Javascript or jQuery.
       </p>
     </div>
 
@@ -59,8 +58,37 @@
 
       <!--slick carousel ends -->
 
-      <div class="col bg-success rounded mt-4 mb-4 p-5">
+      <div class="col bg-light rounded mt-4 mb-4 p-5">
         <h2> Documentation </h2>
+        <p>
+          Here I'll explain how I used HTML, jQuery, and CSS to create this slider.
+          It should be noted that this slider uses the jQuery plugin <a href="https://kenwheeler.github.io/slick/">
+          slick</a>.
+        </p>
+        <h5>HTML</h5>
+        <p>
+          In the <code>&lt;head&gt;</code> element, the <code>&lt;link&gt;</code> tag references to two external stylesheets needed for slick:
+          <ul>
+            <li><a href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.9/slick-theme.min.css">slick-theme.min.css</a></li>
+            <li><a href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.9/slick.min.css">slick.min.css</a></li>
+          </ul>
+        </p>
+        <p>
+          In the <code>&lt;body&gt;</code> element, a <code>&lt;div&gt;</code> with the class <code>.carousel-container</code> is created that
+          contains the <code>&lt;div&gt;</code> with the class <code>.mySlider</code>. Within  <code>.mySlider</code> six <code>&lt;div&gt;</code>
+          elements have been created that contain <code>&lt;img&gt;</code> tags that point to the images that will be featured in the slider.
+        </p>
+        <p>
+          At the bottom of the HTML file, <code>&lt;script&gt;</code> elements are used to point to external script files required for slick to be implemented:
+          <ul>
+            <li><a href="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.1/jquery.min.js">jquery.min.js</a></li>
+            <li><a href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.9/slick.min.js">slick.min.js</a></li>
+            <li>As well as local js file my-javascript.js that will contain the jQuery to initialise the slider.</li>
+          </ul>
+        </p>
+
+        <h5>jQuery</h5>
+        <p>In the local js file, </p>
       </div>
 
 
