@@ -1,20 +1,29 @@
 <!DOCTYPE html>
   <head>
+    <meta charset="utf-8">
     <title>IF 2018 - mod. Web-Entwicklung</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.css">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js"></script>
-    <script src="my-javascript.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.js"></script>
+
+    <!--slick carousel css -->
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.9/slick-theme.min.css"/>
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.9/slick.min.css"/>
+
   </head>
 
   <body>
     <div class="container">
-      <div class="header">
+     <div class="header">
         <nav class="nav navbar-static-top">
           <ul class="nav nav-pills">
             <li class="nav-items">
               <a href = "/" class="nav-link active">Home</a>
+            </li>
+            <li class="nav-items">
+              <a href="/table" class="nav-link">Table of Data</a>
+            </li>
+            <li class="nav-items">
+              <a href="/slider" class="nav-link">Image Slider</a>
             </li>
             <li class="nav-items">
               <a href="/about" class="nav-link">About</a>
@@ -26,21 +35,28 @@
               <a href="mailto:anniekao@xyz.de" class="nav-link">Contact</a>
             </li>
           </ul>
-        </nav>
-      </div>
-      <div class="jumbotron">
+      </nav>
+    </div>
+
+      <div class="jumbotron bg-danger">
           <h1>
             Holy cow! It's a website!
           </h1>
           <p>
+            This is the test page. For more information about this site, please
+            go to the <a href="/about" style="color:#eee;">About Page</a>.
+          </p>
+          <p>
             Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
             tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
             quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
-            non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            consequat. Duis aute irure dolor in reprehenderit in voluptate velit
+            esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+            cupidatat non proident, sunt in culpa qui officia deserunt mollit anim
+            id est laborum.
           </p>
       </div>
+
       <div class="row">
         <div class="col bg-info rounded m-3 p-4 text-dark">
           <h2>Title 1 <br/>
@@ -55,7 +71,7 @@
             id est laborum.</p>
         </div>
         <div class="col bg-warning rounded m-3 p-4 text-dark">
-          <h2>Title 1 <br/>
+          <h2>Title 2 <br/>
             <small>Smaller Title</small>
           </h2>
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
@@ -67,7 +83,7 @@
             id est laborum.</p>
         </div>
         <div class="col bg-info rounded m-3 p-4 text-dark">
-          <h2>Title 1 <br/>
+          <h2>Title 3 <br/>
             <small>Smaller Title</small>
           </h2>
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
@@ -83,6 +99,16 @@
         <p>&copy; Informatica Feminale 2018
       </footer>
     </div>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.1/jquery.min.js"></script>
+    <!--slick carousel javascript-->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.9/slick.min.js"></script>
+
+    <!--my-javascript.js with jquery is loaded after slick javascript -->
+    <script src="my-javascript.js"></script>
+
   </body>
 
 </html>

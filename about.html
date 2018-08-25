@@ -1,28 +1,91 @@
 <!DOCTYPE html>
   <head>
-    <title>About Page</title>
+    <title>IF 2018 - mod. Web-Entwicklung</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js"></script>
+    <script src="my-javascript.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.js"></script>
   </head>
 
   <body>
+    <div class="container">
+      <div class="header">
+        <nav class="nav navbar-static-top">
+          <ul class="nav nav-pills">
+            <li class="nav-items">
+              <a href = "/" class="nav-link">Home</a>
+            </li>
+            <li class="nav-items">
+              <a href="/table" class="nav-link">Table of Data</a>
+            </li>
+            <li class="nav-items">
+              <a href="/slider" class="nav-link">Image Slider</a>
+            </li>
+            <li class="nav-items">
+              <a href="/about" class="nav-link active">About</a>
+            </li>
+            <li class="nav-items">
+              <a href="mailto:anniekao@xyz.de" class="nav-link">Contact</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
 
-    <section>
-      <h1>
-        About Bremen...
-      </h1>
-      <p>
-        More <a href="http://www.bremen.de" target="_blank">info</a> about the city of Bremen!
-      </p>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
-        non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-      </p>
-    </section>
+      <div class ="jumbotron">
+        <h1>
+          About This Website
+        </h1>
+        <p style="color: grey; font-weight: bold">
+          This site was created as part of the course <a href="https://github.com/gitfrosh/if-web-development-course"
+          target="_blank">"Einführung in die moderne
+          Web-Entwicklung/Intro to modern Web Development"</a> held on August 6th -
+          8th at the <a href="https://www.informatica-feminale.de/" target="_blank">
+          21st Informatica Feminale</a>, Universität Bremen.
+        </p>
+      </div>
 
+      <div class="col bg-warning rounded p-5 text-dark">
+        <p style="font-weight:bold">
+          In order to obtain a credit point, participants were required to
+          complete one of three assignments:
+          <ol>
+            <li>
+              <span style="font-weight: bold">HTML:</span> create a new subpage
+              in the existing project and rebuild the table found on the following
+              website in HTML5: <br>
+              <a href="http://www.tushar-mehta.com/excel/newsgroups/data_table/index.2.gif" target="_blank">
+              http://www.tushar-mehta.com/excel/newsgroups/data_table/index.2.gif</a>
+            </li>
+            <li>
+              <span style="font-weight: bold">Javascript/jQuery:</span> create a
+              new subpage and integrate a small picture gallery
+              or a "Slider" with jQuery or Javascript
+            </li>
+            <li>
+              <span style="font-weight: bold">Webserver:</span> implement another
+              webserver other than Node.js (it doesn't matter which language it's
+              based on -- maybe Apache or HTTP Simple Server?)
+            </li>
+          </ol>
+        We may also add any other feature of our choosing so long as it is relevant
+        to what we learned during the course.
+        </p>
+        <p>
+          I decided to tackle two tasks: the integration of a table background
+          a slider gallery using jQuery. The documentation of how I implemented both
+          can be found at the bottom of each page. All significant changes made to this website
+          have been tracked via
+          <a href="https://github.com/anniekao/IF-2018-Moderne-Web-Entwicklung" target="_blank">
+            github
+          </a>.
+        </p>
+      </div>
+
+      <footer class="footer border-top">
+        <p>&copy; Informatica Feminale 2018
+      </footer>
+    </div>
   </body>
 
 </html>
