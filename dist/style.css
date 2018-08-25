@@ -7,6 +7,10 @@ body {
   padding-bottom: 50px;
 }
 
+.footer {
+  padding-top: 20px;
+}
+
 .mySlider img {
   width:1200px;
   height:375px;
@@ -24,4 +28,3 @@ body {
   text-align: center;
   color: #419be0;
   background: white;
-}
