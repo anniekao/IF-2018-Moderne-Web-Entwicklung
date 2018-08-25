@@ -15,5 +15,13 @@ app.get('/table', function (req, res) {
 res.sendFile(__dirname + '/table.html');
 })
 
+app.get('/slider', function (req, res) {
+res.sendFile(__dirname + '/slider.html');
+})
+
+app.get('/documentation', function (req, res) {
+res.sendFile(__dirname + '/documentation.html');
+})
+
 app.listen(3000);
 console.log("server started on port 3000");
