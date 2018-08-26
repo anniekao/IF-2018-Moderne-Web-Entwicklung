@@ -67,28 +67,56 @@
         </p>
         <h5>HTML</h5>
         <p>
-          In the <code>&lt;head&gt;</code> element, the <code>&lt;link&gt;</code> tag references to two external stylesheets needed for slick:
+          In the <code>&lt;head&gt;</code> element, the <code>&lt;link&gt;</code>
+          tag references to two external stylesheets needed for slick:
           <ul>
             <li><a href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.9/slick-theme.min.css">slick-theme.min.css</a></li>
             <li><a href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.9/slick.min.css">slick.min.css</a></li>
           </ul>
         </p>
         <p>
-          In the <code>&lt;body&gt;</code> element, a <code>&lt;div&gt;</code> with the class <code>.carousel-container</code> is created that
-          contains the <code>&lt;div&gt;</code> with the class <code>.mySlider</code>. Within  <code>.mySlider</code> six <code>&lt;div&gt;</code>
-          elements have been created that contain <code>&lt;img&gt;</code> tags that point to the images that will be featured in the slider.
+          In the <code>&lt;body&gt;</code> element, a <code>&lt;div&gt;</code>
+          with the class <code>.carousel-container</code> is created that
+          contains the <code>&lt;div&gt;</code> with the class <code>.mySlider</code>.
+          Within  <code>.mySlider</code> six <code>&lt;div&gt;</code>
+          elements have been created that contain <code>&lt;img&gt;</code> tags
+           that point to the images that will be featured in the slider.
         </p>
         <p>
-          At the bottom of the HTML file, <code>&lt;script&gt;</code> elements are used to point to external script files required for slick to be implemented:
+          At the bottom of the HTML file, <code>&lt;script&gt;</code> elements
+          are used to point to external script files required for slick to be
+          implemented:
           <ul>
             <li><a href="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.1/jquery.min.js">jquery.min.js</a></li>
             <li><a href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.9/slick.min.js">slick.min.js</a></li>
-            <li>As well as local js file my-javascript.js that will contain the jQuery to initialise the slider.</li>
+            <li>As well as the local js file my-javascript.js that will contain the jQuery to initialise the slider.</li>
           </ul>
         </p>
 
         <h5>jQuery</h5>
-        <p>In the local js file, </p>
+        <p>In the local js file, the slick plugin is called on <code>.mySlider</code>
+          with the attributes:
+          <ul>
+            <li><code>dots</code>: shows dot indicators.</li>
+            <li><code>infinite</code>: makes the slider loop infinitely.</li>
+            <li><code>speed</code>: sets the speed of the slider.</li>
+            <li><code>fade</code>: enables the fade effect.</li>
+            <li><code>cssEase</code>: sets the speed of the animation. Here
+              <code>linear</code> defines an animation that runs at the same
+              speed from start to finish.
+            </li>
+          </ul>
+        </p>
+
+        <h5>CSS</h5>
+        <p>In the stylesheet style.css, the appearance of the slider is defined
+          by giving the class <code>.carousel-container</code> the following attributes:
+          <ul>
+            <li><code>padding</code>: defines the space around the slider within
+              the container.</li>
+            <li><code>background</code>: defines the slider's background color. </li>
+          </ul>
+        </p>
       </div>
 
 
