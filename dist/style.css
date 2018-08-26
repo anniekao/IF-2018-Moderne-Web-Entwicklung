@@ -17,9 +17,6 @@ body {
 }
 
 .carousel-container {
-  margin: 0 auto;
   padding: 30px;
-  width: 100%;
-  color: #333;
   background: #419be0;
 }
