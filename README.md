@@ -8,7 +8,5 @@ Below are the stated requirements of the assignment.
 - JS/jQuery: create a new subpage and integrate a small picture gallery or a "Slider" with jQuery or Javascript
 - Webserver: implement another webserver other than Node.js (it doesn't matter which language it's based on -- maybe Apache or HTTP Simple Server?)
 - Your choice: program any other kind of enhancement that relates the what we learned in class
-
-# Documentation
-For all assignments: document how you came to your solution in pointform and/or with screenshots!
+- Documentation: for all assignments document how you came to your solution in pointform and/or with screenshots!
 
